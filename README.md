@@ -29,6 +29,5 @@ https://github.com/your-username/shopfootball.in.git
   /Layout
   /assets
   /Context
-  /
   App.js
   index.js
