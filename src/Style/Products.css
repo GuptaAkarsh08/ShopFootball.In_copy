@@ -1,0 +1,196 @@
+.Title-Header{
+    background-color: #212121;
+    padding: 20px;
+    color: white;
+}
+
+.title-div{
+    margin: auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2rem;
+}
+.title-div h5{
+    font-weight: 600;
+}
+ .main-product{
+    height: 120vh;
+    margin: 30px;
+} 
+
+.products-cart{
+    /* background-color: #214245; */
+    margin-top:10px;
+}
+.product-main-div{
+   /* color: #EAF0F1; */
+   text-align: center;
+   width: 90%;
+   margin: 0 auto;
+}
+.product-main-div img{
+    height: 35vh;
+    width: 80%;
+    border-radius: 5px;
+}
+.product-sub-div{
+    /* background-color: #4a4444; */
+    color: #212121;
+    padding: 10px 8px;
+    border-radius: 12px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.add-to-cart{
+    /* background-color: #333; */
+    color: white;
+    text-decoration: none;
+    /* padding: 9px 9px;
+    border-radius: 8px;
+    margin-top: 8px;
+    font-size: 0.78rem; */
+
+}
+.hover-effect:hover{
+    background: rgba(244,190,44,0.14);
+    color: whitesmoke;
+    padding: 1px 1px;
+    border-radius: 5px;
+}
+
+.details-header{
+    background: #212121;
+    color: whitesmoke;
+    margin: 0;
+    width: 100%;
+}
+.grid{
+    display: flex;
+    flex-direction: row;
+    color: #212121;
+    background-color: #e5e4e2;
+    padding:15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.grid-1{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    font-size: 0.98rem;
+    text-decoration: none;
+}
+.grid-1 span {
+    margin-left: 2.6rem;
+}
+.grid-2{
+    display: flex;
+    justify-content: right; 
+    margin-right: 3rem;
+    width: 50%;
+}
+.product-details-grid{
+    display: flex;
+    flex-direction: row;
+    height: 112vh;
+    margin:30px;
+}
+.side-grid-img {
+    width: 50%;
+}
+
+.side-grid-img img{
+    height: 100vh;
+    margin-left: 50px;
+    width: 480px;
+}
+
+.right-grid-img{
+    width: 50%;
+    margin-left: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.right-grid-img h1{
+    margin-top: 30px;
+    font-weight: 600;
+    color: #212121;
+}
+.right-grid-img h2{
+    margin-top: 20px;
+    font-size: 2rem;
+    font-weight: 400;
+    color: #b1955a;
+}
+.right-grid-img h5{
+    margin-top:18px;
+    font-weight: 500;
+    font-size: 0.98rem;
+    color: #4c4c4c;
+}
+.right-grid-main{
+    color: #212121;
+    margin-left: 12px;
+    margin-top: 20px;
+}
+.right-grid-main .arrow{
+    color: rgba(177, 149, 90, 0.5);
+}
+.right-grid-main p{
+    margin-left: 12px;
+    margin-top: 5px;
+    text-align: start;
+}
+.dropdown{
+    margin-top: 30px;
+}
+.dropdown-design{
+    background-color: #212121;
+    color: #b1955a;
+}
+.dropdown span{
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.dropdownspan{
+ margin-left: 12px;
+}
+.description{
+    text-align: start;
+}
+.text-divider-description{
+    padding: 1px;
+    background-color: #212121;
+}
+.description h5{
+    margin-top: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #b1955a;
+}
+.description-text{
+    /* display: flex;
+    flex-direction: row; */
+}
+.description-text button{
+    display: flex;
+    margin-left: 33rem;
+    font-size: 1.2rem;
+    border:none;
+    margin-top: -20px;
+}
+
+.main-description-text{
+    display: flex;
+    justify-content: start;
+}
+.main-description-text span{
+    color: #4c4c4c;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.main-description-text p{
+margin-top: 12px;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-size: 0.9rem;
+text-align: start;
+font-weight: bold;
+}
